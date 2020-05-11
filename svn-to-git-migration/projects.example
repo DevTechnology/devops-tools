@@ -1,0 +1,5 @@
+#This is an example file, the conversion is case sensitive so make sure case is correct
+#Otherwise place on each line (no spaces) the module name that needs to be searched and converted
+#The scripts ignore blank lines and the # symbol.
+projectName1
+projectName2
