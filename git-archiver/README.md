@@ -31,7 +31,7 @@ The ***--single-branch*** option for ***git clone*** combined with ***-b <projec
 #### Example to checkout an archived repository:
 
 ```sh
-$ git clone --single-branch -b my-retired-project git@github.com:MyOrganization/ARCHIVE-repo.git
+$ git clone --single-branch -b <my-retired-project> git@github.com:MyOrganization/ARCHIVE-repo.git <my-retired-project>
 ```
 
 #### Get a list of archived projects from the archive repository without cloning:
