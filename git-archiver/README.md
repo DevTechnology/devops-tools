@@ -1,10 +1,10 @@
 # git archiver
 
-### This bash based tool helps to archive the HEAD of a single repository as a new orphan branch of an archive repository without losing git commit log history.  
+### This bash based tool helps to archive the ***master*** branch of a single repository as a new orphan branch of an archive repository without losing git commit log history.  
 
 This script assumes that the branch that should be archived from the source repository is HEAD. It does not archive all branch history. If you need to retain all branch history then consider creating a git bundle using the --all option and saving the bundle in a share location. Consider that needing multiple branches archived may be an indicator that the project is not a candidate for archival as it may still be actively being developed ?
 
-The archive repository is assumed to have minimal instructions in a README at the HEAD (master) branch. All archivals are added into new orphan branche of the same name as the repository being archived.
+The archive repository is assumed to have minimal instructions in a README at the master branch and nothing else. All archivals are added into new orphan branch of the same name as the repository being archived.
 
 This script does not modify any git remote repositories.  After performing the migration the user must review the changes in the archive repo and push the changes to a remote only if they are satisfied.
 
